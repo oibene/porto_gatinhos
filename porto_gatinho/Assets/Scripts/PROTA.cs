@@ -35,17 +35,12 @@ public class PROTA : MonoBehaviour
 
             body.position += direction * time * speed;
             body.position.Normalize(); // tentativa de normalizar
-
-            //Debug.Log(body.position + " " + direction);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log(collision.gameObject.name);
-    }
-
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.name);
+        // gatilho quando algo colide
     }
+
 }
