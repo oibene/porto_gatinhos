@@ -1,12 +1,16 @@
+using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 
 public class PROTA : MonoBehaviour
 {
     // VARIAVEIS
     private Rigidbody2D body;
+    private Vector2 direction;
+
     private int x, y, speed = 2;
     private float time;
-    private Vector2 direction;
+    
 
     void Start()
     {
@@ -27,11 +31,21 @@ public class PROTA : MonoBehaviour
             y = ((Input.GetKey(KeyCode.W)) ? 1 : 0) + ((Input.GetKey(KeyCode.S)) ? -1 : 0);
             x = ((Input.GetKey(KeyCode.D)) ? 1 : 0) + ((Input.GetKey(KeyCode.A)) ? -1 : 0);
 
-            direction = new Vector2(x, y); // usar isso pra animação de direção!!!!
+            direction = new Vector2(x, y); // usar isso pra animaÃ§Ã£o de direÃ§Ã£o!!!!
 
             body.position += direction * time * speed;
             body.position.Normalize(); // tentativa de normalizar
-            Debug.Log(body.position + " " + direction);
+
+            //Debug.Log(body.position + " " + direction);
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision.gameObject.name);
     }
 }
