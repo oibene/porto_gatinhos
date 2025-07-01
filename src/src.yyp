@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,12 +35,16 @@
   },
   "name":"src",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"CAMERA","path":"objects/CAMERA/CAMERA.yy",},},
+    {"id":{"name":"GLOBAL","path":"objects/GLOBAL/GLOBAL.yy",},},
+    {"id":{"name":"player_chara","path":"objects/player_chara/player_chara.yy",},},
+    {"id":{"name":"PORTO","path":"rooms/PORTO/PORTO.yy",},},
+    {"id":{"name":"player_charater_spr","path":"sprites/player_charater_spr/player_charater_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"PORTO","path":"rooms/PORTO/PORTO.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

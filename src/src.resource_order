@@ -16,5 +16,9 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"CAMERA","order":3,"path":"objects/CAMERA/CAMERA.yy",},
+    {"name":"GLOBAL","order":2,"path":"objects/GLOBAL/GLOBAL.yy",},
+    {"name":"player_charater_spr","order":16,"path":"sprites/player_charater_spr/player_charater_spr.yy",},
+  ],
 }
