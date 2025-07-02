@@ -16,5 +16,8 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"Sprite1","order":16,"path":"sprites/Sprite1/Sprite1.yy",},
+  ],
 }
