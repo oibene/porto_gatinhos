@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
-    {"name":"Sprite1","order":16,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"player_stand_back","order":1,"path":"sprites/player_stand_back/player_stand_back.yy",},
+    {"name":"player_walk_back","order":2,"path":"sprites/player_walk_back/player_walk_back.yy",},
+    {"name":"player_walk_front","order":3,"path":"sprites/player_walk_front/player_walk_front.yy",},
   ],
 }
