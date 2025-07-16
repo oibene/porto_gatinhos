@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oCamera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oColisao",
+  "eventList":[],
   "managed":true,
-  "name":"oCamera",
+  "name":"oColisao",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objetos/UI.yy",
+    "name":"cenario",
+    "path":"folders/Objetos/cenario.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -28,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"Sprite3",
+    "path":"sprites/Sprite3/Sprite3.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

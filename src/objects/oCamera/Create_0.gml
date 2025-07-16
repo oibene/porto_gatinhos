@@ -1,6 +1,6 @@
 // VARIAVEIS
-screenW = 1280; screenH = 640;
-scale = 1.75;
+screenW = display_get_width(); screenH = display_get_height();
+scale = 1.25
 
 //DEFININDO TAMANHO DE TELA
 window_set_size(screenW /scale, screenH /scale); window_center();

@@ -9,6 +9,8 @@
     {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"cenario","order":3,"path":"folders/Objetos/cenario.yy",},
+    {"name":"UI","order":4,"path":"folders/Objetos/UI.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
@@ -17,9 +19,8 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
-    {"name":"player_stand_back","order":1,"path":"sprites/player_stand_back/player_stand_back.yy",},
-    {"name":"player_walk_back","order":2,"path":"sprites/player_walk_back/player_walk_back.yy",},
-    {"name":"player_walk_front","order":3,"path":"sprites/player_walk_front/player_walk_front.yy",},
+    {"name":"player_idle","order":16,"path":"sprites/player_idle/player_idle.yy",},
+    {"name":"player_walk","order":17,"path":"sprites/player_walk/player_walk.yy",},
+    {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
