@@ -19,8 +19,10 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oZoom","order":1,"path":"objects/oZoom/oZoom.yy",},
     {"name":"player_idle","order":16,"path":"sprites/player_idle/player_idle.yy",},
     {"name":"player_walk","order":17,"path":"sprites/player_walk/player_walk.yy",},
     {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":19,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }
