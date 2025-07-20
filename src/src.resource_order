@@ -24,5 +24,6 @@
     {"name":"player_walk","order":17,"path":"sprites/player_walk/player_walk.yy",},
     {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Sprite4","order":19,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":20,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
