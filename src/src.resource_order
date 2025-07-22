@@ -10,6 +10,7 @@
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"cenario","order":3,"path":"folders/Objetos/cenario.yy",},
+    {"name":"NPC","order":5,"path":"folders/Objetos/NPC.yy",},
     {"name":"UI","order":4,"path":"folders/Objetos/UI.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -19,11 +20,12 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oTextbox","order":1,"path":"objects/oTextbox/oTextbox.yy",},
     {"name":"oZoom","order":1,"path":"objects/oZoom/oZoom.yy",},
+    {"name":"mom","order":20,"path":"sprites/mom/mom.yy",},
     {"name":"player_idle","order":16,"path":"sprites/player_idle/player_idle.yy",},
     {"name":"player_walk","order":17,"path":"sprites/player_walk/player_walk.yy",},
     {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Sprite4","order":19,"path":"sprites/Sprite4/Sprite4.yy",},
-    {"name":"Sprite5","order":20,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
