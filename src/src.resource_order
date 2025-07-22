@@ -20,8 +20,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oTextbox","order":1,"path":"objects/oTextbox/oTextbox.yy",},
+    {"name":"oTextBox","order":1,"path":"objects/oTextBox/oTextBox.yy",},
     {"name":"oZoom","order":1,"path":"objects/oZoom/oZoom.yy",},
+    {"name":"RoomUI","order":21,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"mom","order":20,"path":"sprites/mom/mom.yy",},
     {"name":"player_idle","order":16,"path":"sprites/player_idle/player_idle.yy",},
     {"name":"player_walk","order":17,"path":"sprites/player_walk/player_walk.yy",},

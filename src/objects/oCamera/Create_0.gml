@@ -10,7 +10,7 @@ view_camera[0] = camera_create();
 
 // FAZENDO CAMERA SEGUIR PLAYER
 camera_set_view_target(view_camera[0], oPlayer)
-camera_set_view_speed(view_camera[0], .75, .75)
+camera_set_view_speed(view_camera[0], 1, 1)
 camera_set_view_border(view_camera[0], screenW /2, screenH /2);
 
 // DEFININDO ZOOM DA CAMERA
