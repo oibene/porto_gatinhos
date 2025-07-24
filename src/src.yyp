@@ -38,6 +38,7 @@
   },
   "name":"src",
   "resources":[
+    {"id":{"name":"fDialogo","path":"fonts/fDialogo/fDialogo.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oColisao","path":"objects/oColisao/oColisao.yy",},},
     {"id":{"name":"oMom","path":"objects/oMom/oMom.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"oZoom","path":"objects/oZoom/oZoom.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"mom","path":"sprites/mom/mom.yy",},},
     {"id":{"name":"player_idle","path":"sprites/player_idle/player_idle.yy",},},
     {"id":{"name":"player_walk","path":"sprites/player_walk/player_walk.yy",},},

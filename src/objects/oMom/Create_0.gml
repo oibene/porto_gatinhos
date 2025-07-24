@@ -2,6 +2,11 @@
 fala = 0
 interage = function() {
 	if (place_meeting(x, y, oPlayer)){
-		fala = 1
+		dialogue([
+		{
+			name: "mae",
+			msg: "Oiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+		}
+		])
 	}
 }
