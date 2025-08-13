@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"player_idle",
-    "path":"sprites/player_idle/player_idle.yy",
+    "name":"animPlayerIdle",
+    "path":"sprites/animPlayerIdle/animPlayerIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

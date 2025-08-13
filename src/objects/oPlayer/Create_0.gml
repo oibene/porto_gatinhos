@@ -26,7 +26,7 @@ move = function(){
 	
 	// ANIMAÇÃO
 	if (_x > 0) image_xscale = 1; if (_x < 0) image_xscale = -1;
-	if (_x != 0 || _y != 0) sprite_index = player_walk else sprite_index = player_idle;
+	if (_x != 0 || _y != 0) sprite_index = animPlayerWalk else sprite_index = animPlayerIdle;
 	image_speed = 1;
 	
 	// COLISAO DE CAMERA

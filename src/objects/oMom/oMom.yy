@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"mom",
-    "path":"sprites/mom/mom.yy",
+    "name":"sprMom",
+    "path":"sprites/sprMom/sprMom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
