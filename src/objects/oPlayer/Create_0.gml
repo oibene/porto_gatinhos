@@ -11,25 +11,30 @@ move = function(){
 	
 	// COLISÃO
 	if place_meeting(x, y + yspd, oColisao){
-		while !place_meeting(x, y + yspd, oColisao){
+		while not place_meeting(x, y + yspd, oColisao){
 			y += yspd
 		}
 		yspd = 0
 	} y += yspd
 	
+	
 	if place_meeting(x +xspd, y, oColisao){
-		while !place_meeting(x +xspd, y, oColisao){
+		while not place_meeting(x +xspd, y, oColisao){
 			x += xspd
 		}
 		xspd = 0
 	} x += xspd
 	
 	// ANIMAÇÃO
-	if (_x > 0) image_xscale = 1; if (_x < 0) image_xscale = -1;
-	if (_x != 0 || _y != 0) sprite_index = animPlayerWalk else sprite_index = animPlayerIdle;
+	if (_x > 0) image_xscale = 1; 
+	if (_x < 0) image_xscale = -1;
+	
+	if (not _x == 0 || not _y == 0) sprite_index = animPlayerWalk
+	else sprite_index = animPlayerIdle;
 	image_speed = 1;
 	
 	// COLISAO DE CAMERA
 	_enter = place_meeting(x, y, oZoom);
+	
 }
 

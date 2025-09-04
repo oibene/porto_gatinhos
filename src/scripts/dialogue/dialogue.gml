@@ -1,5 +1,5 @@
 function dialogue(_messages){
-	if (instance_exists(oTextBox)) return;
+	if instance_exists(oTextBox) return;
 	
 	//cria textbox quando for apagada tambem
 	var _inst = instance_create_depth(0, 0, 0, oTextBox);
