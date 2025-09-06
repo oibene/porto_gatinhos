@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oZoom",
+  "%Name":"oCenario",
   "eventList":[],
   "managed":true,
-  "name":"oZoom",
+  "name":"oCenario",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"sprZoom",
-    "path":"sprites/sprZoom/sprZoom.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
