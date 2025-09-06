@@ -8,11 +8,6 @@ drawMsg = "";
 charspd = .5;
 guiH = oCamera.screenH; guiW = oCamera.screenW
 
-// todo create a chapter enum that reads a global variable
-// if chapter == global.chapter, get dialogue
-
-// cMsg, if not == chapter skip to the next something like that
-
 dialogo = function(){
 	if cMsg < 0 exit; //se n tem dialogo
 	
